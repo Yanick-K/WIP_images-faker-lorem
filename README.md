@@ -16,3 +16,20 @@ $faker->addProvider(new \Lorem\Faker\LoremSpaceProvider($faker));
 // download image to tmp dir
 $path = $faker->loremSpace(\Mmo\Faker\LoremSpaceProvider::CATEGORY_FACE)
  ```
+
+## All Categories
+
+- Game
+- Movie
+- Album
+- Book
+- Face
+- Fashion
+- Shoes
+- Watch
+- Furniture
+- Pizza
+- Burger
+- Drink
+- Car
+- House
