@@ -12,9 +12,9 @@ use Faker\Factory as Faker;
 $faker = Faker::create();
 $faker->addProvider(new \Lorem\Faker\LoremSpaceProvider($faker));
 
- $url = $faker->loremSpaceUrl(\Mmo\Faker\LoremSpaceProvider::CATEGORY_FACE); // https://api.lorem.space/image/face?w=640&h=480
+ $url = $faker->loremSpaceUrl(\Lorem\Faker\LoremSpaceProvider::CATEGORY_FACE); // https://api.lorem.space/image/face?w=640&h=480
 // download image to tmp dir
-$path = $faker->loremSpace(\Mmo\Faker\LoremSpaceProvider::CATEGORY_FACE)
+$path = $faker->loremSpace(\Lorem\Faker\LoremSpaceProvider::CATEGORY_FACE)
  ```
 
 ## All Categories
